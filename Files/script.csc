@@ -1,4 +1,5 @@
-console("hello1");
-wait(1000);
-console.clear();
-console("hello2");
+var test = "pipi";
+var test2 = "caca";
+
+console(test);
+console(test2);
