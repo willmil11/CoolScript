@@ -1,0 +1,28 @@
+{
+  "name": "coolscript",
+  "version": "0.0.1",
+  "description": "Coolscript is a fast scripting language that is designed to be easy to learn and use. It is a scripting language, meaning that it is not compiled, but interpreted. It is designed to be used in server-side applications.",
+  "main": "app.js",
+  "scripts": {
+    "test": "coolscript /home/vscode/CoolScript/test.csc && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willmil11/CoolScript.git"
+  },
+  "keywords": [
+    "script",
+    "coolscript",
+    "fast",
+    "simple"
+  ],
+  "author": "willmil11",
+  "license": "ISC",
+  "bin": {
+    "coolscript": "./app.js"
+  },
+  "bugs": {
+    "url": "https://github.com/willmil11/CoolScript/issues"
+  },
+  "homepage": "https://github.com/willmil11/CoolScript#readme"
+}
