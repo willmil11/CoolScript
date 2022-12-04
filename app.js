@@ -90,8 +90,7 @@ var interpreter = {
                             result += addtoresult;
                         }
                         else{
-                            console.log("[Coolscript/error] Error: Variable '" + split[index - 1] + "' is not defined | Error at line: " + linecount);
-                            process.exit(1);
+                            result += `${split[index + 1]}`;
                         }
                     }
                 }
